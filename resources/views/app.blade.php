@@ -22,14 +22,12 @@
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				
-				<a class="navbar-brand">Shopping</a>
+				<a class="navbar-brand">Larashop</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="nav navbar-nav">
 					<li><a href="{{ url('/home') }}">Home Page</a></li>
-                    <li><a href="{{ url('/products') }}">Products</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

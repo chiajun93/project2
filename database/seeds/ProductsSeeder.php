@@ -11,9 +11,9 @@ class ProductsSeeder extends Seeder
     public function run()
     {
         DB::table('products')->insert([
-            'name' => 'Mini skirt black edition',
-            'title' => 'Mini skirt black edition',
-            'description' => 'Mini skirt',
+            'name' => 'Black T-shirt',
+            'title' => 'T-shirt',
+            'description' => 'A black t-shirt',
             'price' => 35,
             'category_id' => 1,
             'brand_id' => 1,
@@ -21,9 +21,9 @@ class ProductsSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
         DB::table('products')->insert([
-            'name' => 'T-shirt blue edition',
-            'title' => 'T-shirt blue edition',
-            'description' => 'T-shirt',
+            'name' => 'White T-shirt',
+            'title' => 'T-shirt',
+            'description' => 'A white t-shirt',
             'price' => 64,
             'category_id' => 2,
             'brand_id' => 3,
@@ -31,9 +31,9 @@ class ProductsSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
         DB::table('products')->insert([
-            'name' => 'Sleeveless Colorblock Scuba',
-            'title' => 'Sleeveless Colorblock Scuba',
-            'description' => 'Sleeveless',
+            'name' => 'Yellow T-shirt',
+            'title' => 'T-shirt',
+            'description' => 'A yellow t-shirt',
             'price' => 13,
             'category_id' => 3,
             'brand_id' => 2,

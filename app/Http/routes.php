@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 // Route::get('/home', 'Auth\AuthController@getLogin');
-Route::get('/home', 'UserController@index');
+Route::get('/home', 'ProductsController@index');
 
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
@@ -26,14 +26,3 @@ Route::get('auth/logout', 'Auth\AuthController@getLogout');
 // Registration routes...
 Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
-
-Route::get('/products', 'ProductsController@index');
-
-// Route::controllers([
-//    'password' => 'Auth\PasswordController',
-// ]);
-
-// Route::controllers([
-//  'auth' => 'Auth\AuthController',
-//  'password' => 'Auth\PasswordController',
-// ]);
